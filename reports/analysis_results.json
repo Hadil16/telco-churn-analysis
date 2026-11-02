@@ -1,0 +1,169 @@
+{
+  "customers": 7043,
+  "duplicate_ids": 0,
+  "blank_total_charges": 11,
+  "blank_total_charges_tenures": [
+    0
+  ],
+  "blank_total_charges_churned": 0,
+  "churn_rate": 0.2653698707936959,
+  "churners": 1869,
+  "by_contract": {
+    "Month-to-month": 0.4270967741935484,
+    "One year": 0.11269517990495587,
+    "Two year": 0.02831858407079646
+  },
+  "by_tenure": {
+    "0-12 months": 0.47438243366880145,
+    "13-24": 0.287109375,
+    "25-48": 0.2038895859473024,
+    "49-72": 0.09513175524787852
+  },
+  "by_internet": {
+    "DSL": 0.1895910780669145,
+    "Fiber optic": 0.4189276485788114,
+    "No": 0.07404980340760157
+  },
+  "by_payment": {
+    "Bank transfer (automatic)": 0.16709844559585493,
+    "Credit card (automatic)": 0.15243101182654403,
+    "Electronic check": 0.4528541226215645,
+    "Mailed check": 0.19106699751861042
+  },
+  "by_techsupport": {
+    "No": 0.4163547365390153,
+    "Yes": 0.15166340508806261
+  },
+  "by_onlinesecurity": {
+    "No": 0.4176672384219554,
+    "Yes": 0.14611193660227836
+  },
+  "by_gender": {
+    "Female": 0.26920871559633025,
+    "Male": 0.2616033755274262
+  },
+  "vif_with_monthly_charges": 862.6600769409101,
+  "vif_without_monthly_charges": 2.785134611417138,
+  "pseudo_r2": 0.28197473351247426,
+  "n_significant_drivers": 14,
+  "or::Contract: Two year": {
+    "odds_ratio": 0.2576225480692134,
+    "ci": [
+      0.1831882403754744,
+      0.36230151639449804
+    ],
+    "p": 6.4003831617723625e-15
+  },
+  "or::Contract: One year": {
+    "odds_ratio": 0.512930554541431,
+    "ci": [
+      0.4161906312479471,
+      0.6321568387863072
+    ],
+    "p": 3.828642374809774e-10
+  },
+  "or::Internet: Fiber optic": {
+    "odds_ratio": 2.465452563934352,
+    "ci": [
+      2.0609689387485957,
+      2.949319725653538
+    ],
+    "p": 5.639131035450084e-23
+  },
+  "or::Payment: Electronic check": {
+    "odds_ratio": 1.4934459854522693,
+    "ci": [
+      1.2339334801254522,
+      1.8075373975886773
+    ],
+    "p": 3.815319846003363e-05
+  },
+  "or::Tech support: Yes": {
+    "odds_ratio": 0.7166553008796667,
+    "ci": [
+      0.6062976564870979,
+      0.8471001244746772
+    ],
+    "p": 9.428884594283941e-05
+  },
+  "or::Online security: Yes": {
+    "odds_ratio": 0.69620008828229,
+    "ci": [
+      0.5900013912431062,
+      0.821514271183393
+    ],
+    "p": 1.8018008866566504e-05
+  },
+  "or::Paperless billing: Yes": {
+    "odds_ratio": 1.401660962064843,
+    "ci": [
+      1.2118131992009438,
+      1.6212510755552192
+    ],
+    "p": 5.436954571158703e-06
+  },
+  "or::Streaming TV: Yes": {
+    "odds_ratio": 1.3065832836018372,
+    "ci": [
+      1.1179008351954751,
+      1.5271120865467875
+    ],
+    "p": 0.0007778059006086781
+  },
+  "or::Gender: Male": {
+    "odds_ratio": 0.9783898425942593,
+    "ci": [
+      0.8615830034410618,
+      1.1110324603299837
+    ],
+    "p": 0.7362688161371895
+  },
+  "or::Senior citizen: Yes": {
+    "odds_ratio": 1.2409546262946183,
+    "ci": [
+      1.0507199562242056,
+      1.4656316132568183
+    ],
+    "p": 0.010999960575059002
+  },
+  "tenure_or_per_12_months": 0.6636542220641786,
+  "auc_test": {
+    "Logistic regression": 0.8449465330019296,
+    "Gradient boosting": 0.8453560991431379
+  },
+  "test_customers": 1761,
+  "top_10pct": {
+    "churn_rate": 0.7514204545454546,
+    "share_of_churners": 0.2830390583199572,
+    "lift": 2.831596715550367
+  },
+  "top_20pct": {
+    "churn_rate": 0.6747159090909091,
+    "share_of_churners": 0.5082932049224184,
+    "lift": 2.5425490357021254
+  },
+  "top_30pct": {
+    "churn_rate": 0.5847537878787878,
+    "share_of_churners": 0.660781166399144,
+    "lift": 2.2035424976085083
+  },
+  "cv_auc": 0.8430764556618546,
+  "risk_group_sizes": {
+    "A. Top 10%": 704,
+    "B. 10-20%": 704,
+    "C. 20-50%": 2113,
+    "D. Bottom 50%": 3522
+  },
+  "monthly_revenue_total": 456116.6,
+  "monthly_revenue_of_churners": 139130.85,
+  "share_of_revenue_churners": 0.3050335155528214,
+  "avg_monthly_charge_churners": 74.44133226324237,
+  "avg_monthly_charge_stayers": 61.26512369540008,
+  "avg_tenure_churners": 17.979133226324237,
+  "avg_tenure_stayers": 37.56996521066873,
+  "scenario_save_rate": 0.25,
+  "top20_churners_monthly_revenue": 78081.6,
+  "scenario_monthly_revenue_saved": 19520.4,
+  "scenario_annual_revenue_saved": 234244.80000000002,
+  "top20_customers_contacted": 1408
+}

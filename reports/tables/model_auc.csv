@@ -1,0 +1,3 @@
+model,auc_on_unseen_customers
+Logistic regression,0.8449465330019296
+Gradient boosting,0.8453560991431379

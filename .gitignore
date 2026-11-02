@@ -1,0 +1,16 @@
+# Raw data: download it yourself (link in README)
+data/
+
+# Private drafts
+reports/linkedin_post.md
+
+# Power BI local cache and the generated project (it contains a local file path)
+.pbi/
+*.pbix.bak
+powerbi/telco_dashboard.pbip
+powerbi/telco_dashboard.Report/
+powerbi/telco_dashboard.SemanticModel/
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
